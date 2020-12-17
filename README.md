@@ -1,2 +1,3 @@
-# Mine
-[My training]
+# Practices
+## [collections]
+- checkPalindrome
