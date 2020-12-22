@@ -24,17 +24,12 @@ int main(){
 	cout << "Enter k: ";
 	cin >> k;
 	
-	
 	int i = 0, count = 0;
 	
-
-	
-
 	while(i < 20){
 	pow1 = pow(c[i],k);
 	pow2 = pow(a[i],k);
 	pow3 = pow(b[i],k);
-
 		if(pow1 == (pow2 + pow3)){
 			printPow(c[i],k);
 			cout << " = ";
@@ -47,6 +42,5 @@ int main(){
 		i++;	
 	}
 	cout << "Totally "<< count << " place(s)" << endl; 
-	
 	return 0;
 }
