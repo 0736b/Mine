@@ -1,7 +1,6 @@
 #include<iostream>
 #include<string>
 using namespace std;
-
 int main(){
 	int r = 0, n = 0 , k = 0, i = 0, temp = 0 ;
 	cout << "Enter n: ";
@@ -16,7 +15,6 @@ int main(){
 	r = 0;
 	i = n*n;
 	cout<<endl;
-	
 	while(i>0){
 		if(i%k == 0){
 			cout << "o";
@@ -27,16 +25,11 @@ int main(){
 		if(n == 1 || i%n == 1){
 			cout << endl;
 		}
-			i--;
-		
+			i--;	
 	}
-	
 	while(r<temp){
 		cout<<"-";
 		r++;
-	}	
-		
-	
-	return 0 ;
-		
+	}		
+	return 0 ;		
 	}
